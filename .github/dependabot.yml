@@ -12,7 +12,7 @@ updates:
   assignees:
     - atipezda
   commit-message:
-    prefix: FRONTEND_fix_dependabot
+    prefix: FRNT_fix_depend
     prefix-development: chore
     include: scope
 - package-ecosystem: npm
@@ -26,6 +26,6 @@ updates:
   assignees:
     - atipezda
   commit-message:
-    prefix: BACKEND_fix_dependabot
+    prefix: Back_fix_depend
     prefix-development: chore
     include: scope
