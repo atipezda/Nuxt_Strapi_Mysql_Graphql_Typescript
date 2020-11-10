@@ -9620,6 +9620,33 @@ strapi-helper-plugin@3.2.5:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
+strapi-helper-plugin@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.1.tgz#3123ecc560244381d63a3ed2004edcf4c00e8819"
+  integrity sha512-IWmnbQRDyQJHOrPW6WlCohXSBQen712h717M/XS83TEcN+sYEAhD1MGQPvz/c7N7N+X3PkYdK/9j27PhDBmC+w==
+  dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
+    bootstrap "^4.5.2"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.19"
+    moment "^2.16.0"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.3.1"
+
 strapi-plugin-content-manager@3.2.5:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.2.5.tgz#5cbd8befc6f2bdfb841e91cbdf0008971df965fe"
@@ -9697,10 +9724,10 @@ strapi-plugin-content-type-builder@3.2.5:
     strapi-utils "3.2.5"
     yup "^0.27.0"
 
-strapi-plugin-documentation@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.2.5.tgz#a2de53648aad3d12bf0b02e6e626ec4d8f66c11f"
-  integrity sha512-tw47m/OX+HXSB6FB5bKdAvgVZol1EYeuNeguW+3e1T9S4sVIRqF57TRR6/cfBLeotdePCu6NUcpACjQx8+7+FQ==
+strapi-plugin-documentation@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.3.1.tgz#65ee86b2d8c5c0af97fe1ec6e329a4375d38fb81"
+  integrity sha512-xi+DwRdM9QfTQ9c6DuY10fRY43eOhH0NKflwg3cH53MzqrF3p53E0AMfuzOtPXErIDaNw4+6SB8ovALJwlgjow==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -9726,7 +9753,7 @@ strapi-plugin-documentation@3.2.5:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.2.5"
+    strapi-helper-plugin "3.3.1"
     swagger-ui-dist "3.35.0"
 
 strapi-plugin-email@3.2.5:
