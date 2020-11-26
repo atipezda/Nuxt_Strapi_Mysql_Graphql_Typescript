@@ -2574,7 +2574,7 @@ boom@^7.3.0:
   dependencies:
     hoek "6.x.x"
 
-bootstrap@^4.5.2:
+bootstrap@^4.5.2, bootstrap@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
@@ -9620,6 +9620,33 @@ strapi-helper-plugin@3.2.5:
     styled-components "^5.0.0"
     whatwg-fetch "^3.3.1"
 
+strapi-helper-plugin@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.4.tgz#d42f4b6c51c113c5aabb2756ed91640f794af113"
+  integrity sha512-qFm5OACbuYgLRkp6z47kWoo+HFoXcv0US0lbR69hYud6hDAUoY37hlXOAdtB2JzdO1fRri/U2Oy+po1lTOOyTg==
+  dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
+    bootstrap "^4.5.3"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.19"
+    moment "^2.16.0"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.3.1"
+
 strapi-plugin-content-manager@3.2.5:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.2.5.tgz#5cbd8befc6f2bdfb841e91cbdf0008971df965fe"
@@ -9697,10 +9724,10 @@ strapi-plugin-content-type-builder@3.2.5:
     strapi-utils "3.2.5"
     yup "^0.27.0"
 
-strapi-plugin-documentation@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.2.5.tgz#a2de53648aad3d12bf0b02e6e626ec4d8f66c11f"
-  integrity sha512-tw47m/OX+HXSB6FB5bKdAvgVZol1EYeuNeguW+3e1T9S4sVIRqF57TRR6/cfBLeotdePCu6NUcpACjQx8+7+FQ==
+strapi-plugin-documentation@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.3.4.tgz#c33886a764c7655a87e742445205c5e712461011"
+  integrity sha512-NvmGsU/AczysQY9tLrMAcAcAGdY9pzVMjrkls2avgqtUQabeBw/745A4zEpBdFfOnxPtUBl4DU0P9hT1vjw22A==
   dependencies:
     "@buffetjs/core" "3.3.1"
     "@buffetjs/custom" "3.3.1"
@@ -9726,7 +9753,7 @@ strapi-plugin-documentation@3.2.5:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.2.5"
+    strapi-helper-plugin "3.3.4"
     swagger-ui-dist "3.35.0"
 
 strapi-plugin-email@3.2.5:
